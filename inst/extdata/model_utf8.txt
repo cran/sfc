@@ -1,0 +1,21 @@
+## P rock production
+PF["R","Ch",]=DRP*PRP*PRR
+PF["R","W",]=DRP*PRP-PF["R","Ch",]
+
+## P chemical production
+PF["Ch","Cr",]=DFP*PFP
+PF["Ch","H",]=DCP*PCP
+PF["Ch","W",]=(PF["R","Ch",]-PF["Ch","Cr",]-PF["Ch","H",])/(1-PCR)
+PF["W","Ch",]=PF["Ch","W",]*PCR
+
+## Crop production
+PF["Cr","A",]=DMP*PMP*PHR
+PF["Cr","H",]=DMP*PMP*PNR
+PF["Cr","W",]=PF["Ch","Cr",]-PF["Cr","A",]-PF["Cr","H",]
+
+## Animal production
+PF["A","H",]=DAP*PAP*PAR
+PF["A","W",]=PF["Cr","A",]-PF["A","H",]
+
+## Human consumption
+PF["H","W",]=PF["Ch","H",]+PF["Cr","H",]+PF["A","H",]

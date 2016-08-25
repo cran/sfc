@@ -1,0 +1,10 @@
+c8fb691c25c41c2c0edf427b27568afe *DESCRIPTION
+ed975ce14bf7e2cb75c1e1db1cb0245e *NAMESPACE
+d442c525c00a0f69d64ce211515627d9 *R/auxiliary_functions.R
+de513df0bbbe1bed950fc9e17fb8a4bf *R/sfc_function.R
+ff4df54628130ce3318c16944b449b36 *README.md
+da20e26778fb7e05ec9077af522208f9 *inst/extdata/data_utf8.csv
+5cf5851a71c41e2da1c96079fe14c337 *inst/extdata/model_utf8.csv
+a20867bb0b198f916809ac85aeb81552 *inst/extdata/model_utf8.txt
+268c2950604013ef8f86e216a451c1cd *man/sfc-package.Rd
+00b0087315f8812419aa7e0b4a8eadec *man/sfc.Rd
